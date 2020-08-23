@@ -1,4 +1,4 @@
-import Logo from '../img/Logo.png'
+import Logo from '../img/logo.png'
 import styles from '../layout.module.scss' 
 
 import ConfigMenu from './config-menu' // Конфигурация меню
