@@ -1,0 +1,57 @@
+.navbar {
+  position: absolute;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  right: 8px;
+  width: 100%;
+  height: 50px;
+  // background-image: url('../img/menu.svg');
+  color:white;
+  background-color: #2C313A;
+  cursor: pointer;
+  @media (min-width: 701px) {
+    display: none;
+  }
+  .line {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    height: 80%;
+    position: absolute;
+    right: 22px;
+    
+    hr {
+      width: 40px;
+      margin: 0;
+      display: block;
+      outline: none;
+      border: 0;
+      height: 3px;
+      background-color: white;
+      
+    }
+  }
+}
+
+.navToggle {
+  position: absolute;
+  top: -300px;
+  z-index: 40;
+  width: 100%;
+  li {
+    a {
+      padding: 10px;
+      background-color: #2C313A;
+      display: block;
+      color: #FFFFFF;
+      border-top: solid 1px #FFFFFF;
+      // &:last-child {
+      //   border-bottom: solid 1px #FFFFFF;
+      // }
+    }
+  }
+}
