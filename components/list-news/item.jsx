@@ -19,7 +19,7 @@ const ItemNews = (props) => {
       <Link href={"/news/[id]"} as={`/news/${id}`}>
         <a>
           <img src={src} className={styles.titleImg} alt="News"/>
-          <h4>{title}</h4>
+          <h4 className={styles.title}>{title}</h4>
           <p style={{ height: getShowMore}}>
             {about}
           </p>
